@@ -8,8 +8,8 @@ def cpi_calc(final_cpi, current_cpi, current_creds, next_sem_creds):
 st.title("CPI Target Calculator")
 
 current_cpi = st.number_input("Current CPI", value=8.200, format="%.3f")
-current_creds = st.number_input("Credits Completed", value=164)
-next_sem_creds = st.number_input("Next Semester Credits", value=61)
+current_creds = st.number_input("Credits Completed", value=155)
+next_sem_creds = st.number_input("Next Semester Credits", value=52)
 
 # final_cpi = st.slider("Target Final CPI", 7.0, 10.0, 8.5, 0.01)
 final_cpi = st.number_input(
